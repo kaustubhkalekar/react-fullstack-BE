@@ -1,4 +1,4 @@
-FROM openjdk:17-jre-alpine
+FROM FROM adoptopenjdk/openjdk17:jre-17.0.8+7-alpine
 ENV PORT 9001
 ENV CLASSPATH /opt/lib
 EXPOSE 9001
